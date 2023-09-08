@@ -10,3 +10,14 @@ git commit -m "add 678"
 git push
 history
 
+git log --oneline //Получить сокращённый лог 
+cd .git/
+ls # посмотрели, какие есть файлы
+COMMIT_EDITMSG  ORIG_HEAD  description  index  logs/     refs/
+HEAD            config     hooks/       info/  objects/
+
+cat HEAD # команда cat показывает содержимое файла
+ref: refs/heads/master # в файле вот такая ссылка 
+$ touch fileA.txt
+$ git status
+
